@@ -50,7 +50,7 @@ class System:
                     elif event.key == pygame.K_RIGHT:
                         player.x+=5
 
-            player.update()
+            #player.update()
 
             self.spritelist.draw(screen)
             clock.tick(30)
